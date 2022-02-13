@@ -35,7 +35,7 @@ learn_rate = 0.01
 
 plt.ion()
 
-for i in xrange(2000001):
+for i in range(2000001):
     # Scalable version.
     l = [X]
     for s in syn:
